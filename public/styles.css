@@ -10,7 +10,7 @@
 
 :root {
 	--color-bg: #012347;
-	--color-bg-variant: #396575;
+	--color-bg-variant: #1d3147;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
@@ -19,6 +19,8 @@
 	--container-width-lg: 75%;
 	--container-width-md: 86%;
 	--container-width-sm: 90%;
+
+	--transition: all 400ms ease;
 }
 
 html {
@@ -36,4 +38,90 @@ body {
 	/* font-family: "PT Mono", monospace; */
 	font-family: "Asap", sans-serif;
 	line-height: 1.7;
+}
+
+.container {
+	width: var(--container-width-lg);
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2,
+h5 {
+	color: var(--color-light);
+	text-align: center;
+}
+
+section {
+	margin-top: 8rem;
+}
+
+section h2 {
+	color: var(--color-primary);
+	margin-bottom: 3rem;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+a {
+	color: var(--color-primary);
+	transition: var(--transition);
+}
+
+a:hover {
+	color: var(--color-white);
+}
+
+.btn {
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+	border-radius: 0.4rem;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.75rem 1.2rem;
+	transition: var(--transition);
+	width: max-content;
+}
+
+.btn:hover {
+	background: var(--color-white);
+	color: var(--color-bg);
+	border-color: transparent;
+}
+
+.btn-primary {
+	background: var(--color-primary);
+	color: var(--color-bg);
+}
+
+.text-light {
+	color: var(--color-light);
+}
+
+/************ For tablet ***********/
+@media screen and (max-width: 1024px) {
+	.container {
+		width: var(--container-width-md);
+	}
+
+	section {
+		margin-top: 6rem;
+	}
+}
+
+/************ For mobile ***********/
+@media screen and (max-width: 600px) {
+	.container {
+		width: var(--container-width-sm);
+	}
+
+	section {
+		margin-bottom: 2rem;
+	}
 }
