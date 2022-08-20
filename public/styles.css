@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=PT+Mono&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,8 +9,8 @@
 }
 
 :root {
-	--color-bg: #1f1f38;
-	--color-bg-variant: #2c2c6c;
+	--color-bg: #012347;
+	--color-bg-variant: #396575;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
@@ -17,4 +19,21 @@
 	--container-width-lg: 75%;
 	--container-width-md: 86%;
 	--container-width-sm: 90%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background-color: var(--color-bg);
+	color: var(--color-white);
+	background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+	/* font-family: "PT Mono", monospace; */
+	font-family: "Asap", sans-serif;
+	line-height: 1.7;
 }
