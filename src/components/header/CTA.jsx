@@ -1,10 +1,10 @@
 import React from "react";
-import Resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
-function CTA() {
+function CallToAction() {
 	return (
 		<div className="cta">
-			<a href={Resume} download className="btn">
+			<a href={resume} download className="btn">
 				Download Resume
 			</a>
 			<a href="#contact" className="btn btn-primary">
@@ -14,4 +14,4 @@ function CTA() {
 	);
 }
 
-export default CTA;
+export default CallToAction;

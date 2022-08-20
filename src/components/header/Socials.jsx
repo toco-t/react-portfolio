@@ -1,14 +1,14 @@
 import React from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 function Socials() {
 	return (
 		<div className="header__socials">
 			<a href="https://www.linkedin.com/in/toco-tachibana/" target="_blank">
-				<BsLinkedin />
+				<FiLinkedin size={21} />
 			</a>
 			<a href="https://github.com/toco-t/" target="_blank">
-				<BsGithub />
+				<FiGithub size={21} />
 			</a>
 		</div>
 	);
