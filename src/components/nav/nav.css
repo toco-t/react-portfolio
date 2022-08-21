@@ -23,3 +23,11 @@ label {
 	font-size: 0.9rem;
 	text-align: center;
 }
+
+/****** for mobile ******/
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+	}
+}
