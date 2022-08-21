@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 function Header() {
 	return (
-		<header>
+		<header id="header">
 			<div className="container header__container">
 				<h1>Toco Tachibana</h1>
 				<h5 className="text-light">Aspiring Software Engineer</h5>
