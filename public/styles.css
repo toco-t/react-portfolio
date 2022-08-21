@@ -35,7 +35,6 @@ body {
 	background-color: var(--color-bg);
 	color: var(--color-white);
 	background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
-	/* font-family: "PT Mono", monospace; */
 	font-family: "Asap", sans-serif;
 	line-height: 1.7;
 }
@@ -46,6 +45,7 @@ body {
 }
 
 h1 {
+	font-family: "PT Mono", monospace;
 	font-size: 2.5rem;
 }
 
@@ -53,6 +53,10 @@ h2,
 h5 {
 	color: var(--color-light);
 	text-align: center;
+}
+
+h5 {
+	letter-spacing: 1px;
 }
 
 section {
@@ -108,10 +112,6 @@ a:hover {
 @media screen and (max-width: 1024px) {
 	.container {
 		width: var(--container-width-md);
-	}
-
-	section {
-		margin-top: 6rem;
 	}
 }
 
