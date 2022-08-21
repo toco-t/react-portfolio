@@ -28,7 +28,7 @@ function Nav() {
 				<label htmlFor="">About</label>
 			</a>
 			<a
-				href="skills"
+				href="#skills"
 				onClick={() => setActive("skills")}
 				className={checkState("skills")}
 			>
@@ -36,7 +36,7 @@ function Nav() {
 				<label htmlFor="">Skills</label>
 			</a>
 			<a
-				href="projects"
+				href="#projects"
 				onClick={() => setActive("projects")}
 				className={checkState("projects")}
 			>
@@ -44,7 +44,7 @@ function Nav() {
 				<label htmlFor="">Projects</label>
 			</a>
 			<a
-				href="contact"
+				href="#contact"
 				onClick={() => setActive("contact")}
 				className={checkState("contact")}
 			>
