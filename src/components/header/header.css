@@ -46,7 +46,12 @@ header {
 	left: calc(50% - 11rem);
 	margin-top: 7rem;
 	position: absolute;
+	transition: all 100000ms ease;
 	width: 22rem;
+}
+
+.moon:hover {
+	transform: rotate(360deg);
 }
 
 /****** for tablet ******/
