@@ -1,0 +1,33 @@
+.contact__container {
+	width: 60%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+input,
+textarea {
+	background: transparent;
+	border: 2px solid var(--color-primary-variant);
+	border-radius: 0.5rem;
+	color: var(--color-white);
+	padding: 1.5rem;
+	resize: none;
+	width: 100%;
+}
+
+/****** for tablet ******/
+
+@media screen and (max-width: 1024px) {
+}
+
+/****** for mobile ******/
+
+@media screen and (max-width: 600px) {
+	.contact__container {
+		width: var(--container-width-sm);
+	}
+}
