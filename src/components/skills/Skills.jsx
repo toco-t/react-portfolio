@@ -41,7 +41,7 @@ function Skills() {
 							<FaBootstrap size={size} className="skills__details-icon" />
 							<div>
 								<h4>Bootstrap</h4>
-								<small className="text-light">Intermediate</small>
+								<small className="text-light">Basic</small>
 							</div>
 						</article>
 						<article className="skills__details">
@@ -82,14 +82,14 @@ function Skills() {
 							<FaJava size={28} className="skills__details-icon" />
 							<div>
 								<h4>Java</h4>
-								<small className="text-light">Basic</small>
+								<small className="text-light">Novice</small>
 							</div>
 						</article>
 						<article className="skills__details">
 							<HiDesktopComputer size={size} className="skills__details-icon" />
 							<div>
 								<h4>C</h4>
-								<small className="text-light">Basic</small>
+								<small className="text-light">Novice</small>
 							</div>
 						</article>
 					</div>
