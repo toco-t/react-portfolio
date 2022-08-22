@@ -1,0 +1,10 @@
+footer {
+	margin-top: 8rem;
+}
+
+.footer__copyright {
+	background: var(--color-bg-variant);
+	color: var(--color-light);
+	padding: 0.2rem 0;
+	text-align: center;
+}

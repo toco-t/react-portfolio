@@ -83,6 +83,10 @@ a:hover {
 	color: var(--color-white);
 }
 
+textarea {
+	font-family: "Asap", sans-serif;
+}
+
 .btn {
 	color: var(--color-primary);
 	border: 1px solid var(--color-primary);
