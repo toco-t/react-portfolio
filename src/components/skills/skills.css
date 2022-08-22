@@ -41,6 +41,8 @@
 	margin-top: 6px;
 }
 
+/****** for tablet ******/
+
 @media screen and (max-width: 1400px) {
 	.skills__container {
 		grid-template-columns: 1fr;
@@ -68,11 +70,11 @@
 	.skills__container > div {
 		padding: 2rem 1rem;
 		margin: 0;
-		width: 90%;
+		width: 100%;
 	}
 
 	.skills__content {
 		gap: 2rem;
-		margin-left: 1.5rem;
+		grid-template-columns: none;
 	}
 }

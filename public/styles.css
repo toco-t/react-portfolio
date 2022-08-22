@@ -10,7 +10,7 @@
 
 :root {
 	--color-bg: #012347;
-	--color-bg-variant: #1d3147;
+	--color-bg-variant: #122c47;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
@@ -65,6 +65,7 @@ section {
 
 section h2 {
 	color: var(--color-primary);
+	font-family: "PT Mono", monospace;
 	margin-bottom: 3rem;
 }
 
