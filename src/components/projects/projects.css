@@ -17,12 +17,6 @@
 	border-color: var(--color-primary-variant);
 }
 
-/* .projects__item img {
-	border-radius: 1.5rem;
-	overflow: hidden;
-	width: 100%;
-} */
-
 .projects__item h3 {
 	margin: 1.2rem 0 1.5rem 0;
 }

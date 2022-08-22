@@ -61,6 +61,10 @@ header {
 		height: 90vh;
 		margin-top: 5rem;
 	}
+
+	.moon {
+		margin-bottom: 2rem;
+	}
 }
 
 /****** for mobile ******/
@@ -72,5 +76,11 @@ header {
 
 	.header__socials {
 		display: none;
+	}
+
+	.moon {
+		height: 18rem;
+		left: calc(50% - 9rem);
+		width: 18rem;
 	}
 }
