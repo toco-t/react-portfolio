@@ -13,10 +13,10 @@ function About() {
 				</div>
 				<div className="about__content">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-						excepturi vero ex in eos dolorum iure voluptate mollitia iste,
-						provident nobis, laudantium omnis dolore molestias est minima nemo
-						repellendus quo?
+						Toco is a second-term Computer Systems Technology (CS) student at
+						British Columbia Institute of Technology, in the Co-op program. He
+						is currently based in Burnaby, BC and passionate about exploring and
+						learning new technologies...
 					</p>
 				</div>
 			</div>
