@@ -1,7 +1,6 @@
 header {
 	height: 100vh;
 	padding-top: 7rem;
-	overflow: hidden;
 }
 
 .header__container {
@@ -82,5 +81,13 @@ header {
 		height: 18rem;
 		left: calc(50% - 9rem);
 		width: 18rem;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.moon {
+		height: 12rem;
+		left: calc(50% - 6rem);
+		width: 12rem;
 	}
 }
