@@ -12,7 +12,7 @@ function Projects() {
 		},
 		{
 			id: 2,
-			title: "PokeDex - Web UI for PokéAPI with added features",
+			title: "PokeDex - Web UI for PokéAPI",
 			stack: "JavaScript | EJS | Node.js | Express | MongoDB | PokéAPI",
 			github: "https://github.com/toco-t/",
 		},
