@@ -7,7 +7,7 @@ function Projects() {
 		{
 			id: 1,
 			title: "Sibyl System - Discord bot",
-			stack: "Python | Discord API | Web sockets",
+			stack: "Python | Discord API",
 			github: "https://github.com/toco-t/sibyl-system",
 		},
 		{
