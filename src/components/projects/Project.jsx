@@ -1,5 +1,4 @@
 import React from "react";
-import { RiGitRepositoryFill } from "react-icons/ri";
 
 function Project(props) {
 	return (

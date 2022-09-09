@@ -15,7 +15,7 @@ function Nav() {
 
 	return (
 		<nav>
-			<a href="#" onClick={() => setActive("#")} className={checkState("#")}>
+			<a href="#header" onClick={() => setActive("#")} className={checkState("#")}>
 				<IoEarth size={size} />
 				<label htmlFor="">Home</label>
 			</a>
