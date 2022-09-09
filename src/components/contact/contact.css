@@ -20,6 +20,10 @@ textarea {
 	width: 100%;
 }
 
+button {
+	margin-left: auto;
+}
+
 /****** for mobile ******/
 
 @media screen and (max-width: 600px) {
