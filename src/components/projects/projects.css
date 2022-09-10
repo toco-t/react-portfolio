@@ -27,6 +27,7 @@
 
 .projects__item a {
 	float: right;
+	margin-top: 2rem;
 }
 
 /****** for tablet ******/
