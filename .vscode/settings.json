@@ -1,3 +1,10 @@
 {
-	"cSpell.ignoreWords": ["Poké", "notehub", "pokedex", "swapomen"]
+	"cSpell.ignoreWords": [
+		"Poké",
+		"noopener",
+		"noreferrer",
+		"notehub",
+		"pokedex",
+		"swapomen"
+	]
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./skills.css";
-import { TiHtml5 } from "react-icons/ti";
-import { SiCss3, SiJavascript, SiMongodb, SiPython } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiMongodb, SiPython } from "react-icons/si";
 import { FaBootstrap, FaReact, FaNode, FaJava } from "react-icons/fa";
 import { HiDesktopComputer } from "react-icons/hi";
 
@@ -17,7 +16,7 @@ function Skills() {
 					<h3>Front-end Development</h3>
 					<div className="skills__content">
 						<article className="skills__details">
-							<TiHtml5 size={28} className="skills__details-icon" />
+							<SiHtml5 size={size} className="skills__details-icon" />
 							<div>
 								<h4>HTML5</h4>
 								<small className="text-light">Advanced</small>

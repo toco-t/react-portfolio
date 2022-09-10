@@ -5,7 +5,7 @@ function Project(props) {
 		<article className="projects__item">
 			<h3>{props.title}</h3>
 			<small>{props.stack}</small>
-			<a href={props.github} className="btn" target="_blank">
+			<a href={props.github} className="btn" target="_blank" rel="noopener noreferrer">
 				GitHub
 			</a>
 		</article>
