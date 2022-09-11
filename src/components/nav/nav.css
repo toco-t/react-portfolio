@@ -14,9 +14,9 @@ nav {
 	z-index: 2;
 }
 
-nav a.active {
+/* nav a.active {
 	color: var(--color-white);
-}
+} */
 
 label {
 	display: block;
